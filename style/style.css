@@ -131,11 +131,70 @@ nav {
 }
 /* Header Style End  */
 
+/* Popular Section Style Start  */
+.popular-tour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tour-content {
+    width: 50%;
+}
+
+.tour-content > h1 {
+    color: #131318;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+#content-para {
+    font-size: 1em;
+    color: rgba(19, 19, 24, 0.70);
+    padding-bottom: 24px;
+    text-align: justify;
+}
+
+.tour-content > p {
+    font-size: 1em;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: justify;
+}
+
+.tour-content > ul > li {
+    list-style: none;
+    font-size: 1em;
+    color: rgba(19, 19, 24, 0.70);
+    padding-bottom: 24px;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.fa-circle {
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+.reed-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 55px;
+    margin-top: 46px;
+}
+
 
 /* Mobile Responsive  */
 @media screen and (max-width: 600px) {
     body {
-        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .nav-menu {
@@ -179,6 +238,21 @@ nav {
         height: 550px;
     }
     
+    .popular-tour {
+        flex-direction: column;
+    }
+
+    .tour-content {
+        width: 100%;
+    }
+
+    .tour-img {
+        margin-top: 24px;
+    }
+
+    .tour-img img {
+        width: 100%;
+    }
 }
 
 
@@ -186,7 +260,8 @@ nav {
 /* Tablet Responsive */
 @media screen and (min-width:600px) and (max-width:992px) {
     body {
-        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
 
@@ -229,5 +304,21 @@ nav {
 
     .header-container {
         height: 550px;
+    }
+
+    .popular-tour {
+        flex-direction: column;
+    }
+
+    .tour-content {
+        width: 100%;
+    }
+
+    .tour-img {
+        margin-top: 24px;
+    }
+
+    .tour-img img {
+        width: 100%;
     }
 }
