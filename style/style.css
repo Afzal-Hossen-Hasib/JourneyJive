@@ -1,0 +1,92 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    margin-left: 130px;
+    margin-right: 130px;
+    border: 1px solid lightgray;
+}
+
+/* Navbar Style  Start*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-container > h1 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    padding-left: 17px;
+}
+
+.short-title {
+    color: #FF5400;
+}
+
+.nav-menu > ul {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+}
+
+.nav-menu > ul > li {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#toggler, label {
+    display: none;
+}
+/* Navbar Style  End*/
+
+
+
+
+/* Mobile Responsive  */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+    
+    .nav-menu {
+        display: none;
+    }
+
+    label {
+        display: inline-flex;
+    }
+}
+
+
+
+/* Tablet Responsive */
+@media screen and (min-width:600px) and (max-width:992px) {
+    body {
+        margin: 0;
+    }
+    
+
+    .nav-menu {
+        display: none;
+    }
+
+    label {
+        display: inline-flex;
+    }
+}
