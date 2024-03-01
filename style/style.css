@@ -188,6 +188,147 @@ nav {
     padding: 15px 55px;
     margin-top: 46px;
 }
+/* Popular Section Style End  */
+
+/* Destination Style Start */
+.destination-container {
+    margin-top: 100px;
+}
+
+.destination-container > h1 {
+    font-size: 3em;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.destination-container > p {
+    font-size: 1em;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.gallery-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.gallery-one img {
+    width: 100%;
+}
+
+.gallery-common {
+    position: relative;
+}
+
+.gallery-common > h3 {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 350px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.gallery-two {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 24px;
+    margin-top: 25px;
+}
+
+.gallery-two img {
+    width: 100%;
+    height: 40vh;
+}
+
+.srilanka {
+    position: relative;
+}
+
+.srilanka > h3 {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 140px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.america {
+    position: relative;
+}
+
+.america > h3 {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 310px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.kashmir {
+    position: relative;
+}
+
+.kashmir > h3 {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 150px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.gallery-three {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.gallery-three img {
+    width: 100%;
+    height: 40vh;
+}
+
+.bangladesh {
+    position: relative;
+}
+
+.bangladesh > h3 {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 270px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.bandarban {
+    position: relative;
+}
+
+.bandarban > h3 {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 400px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+/* Destination Style End */
 
 
 /* Mobile Responsive  */
@@ -252,6 +393,56 @@ nav {
 
     .tour-img img {
         width: 100%;
+    }
+
+    .destination-container > p {
+        width: 100%;
+    }
+
+    .gallery-one {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .gallery-common > h3 {
+        left: 200px;
+    }
+
+    .gallery-two {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .gallery-two img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .srilanka > h3 {
+        left: 205px;
+    }
+    
+    .america > h3 {
+        left: 170px;
+    }
+
+    .kashmir > h3 {
+        left: 210px;
+    }
+    
+    .gallery-three {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .gallery-three img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .bangladesh > h3 {
+        left: 190px;
+    }
+
+    .bandarban > h3 {
+        left: 200px;
     }
 }
 
@@ -320,5 +511,55 @@ nav {
 
     .tour-img img {
         width: 100%;
+    }
+
+    .destination-container > p {
+        width: 100%;
+    }
+
+    .gallery-one {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .gallery-common > h3 {
+        left: 260px;
+    }
+
+    .gallery-two {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .gallery-two img {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .srilanka > h3 {
+        left: 275px;
+    }
+    
+    .america > h3 {
+        left: 240px;
+    }
+
+    .kashmir > h3 {
+        left: 285px;
+    }
+    
+    .gallery-three {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .gallery-three img {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .bangladesh > h3 {
+        left: 250px;
+    }
+
+    .bandarban > h3 {
+        left: 275px;
     }
 }
