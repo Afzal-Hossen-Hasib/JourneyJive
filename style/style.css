@@ -330,6 +330,111 @@ nav {
 }
 /* Destination Style End */
 
+/* Choose Us Style Start  */
+.choose-container {
+    margin-top: 100px;
+}
+
+.choose-container > h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.choose-container > p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    line-height: 26px;
+    font-size: 1em;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.choose-content {
+    margin-top: 50px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 24px;
+}
+
+.choose-content img {
+    width: 15%;
+    padding-bottom: 32px;
+}
+
+.choose-content h2 {
+    color: #131318;
+    font-size: 2em;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.choose-content  p {
+    color: #5A5A5D;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.price > h2 {
+    color: #131318;
+    font-size: 2em;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.price > p {
+    color: #5A5A5D;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.handpicked {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20); 
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    text-align: justify;
+}
+
+.service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+    text-align: justify;
+}
+
+.price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 50%;
+    height: 37vh; 
+    margin: 0 auto; 
+    padding: 32px;
+    text-align: justify;
+}
+
+.price img {
+    width: 15%;
+    padding-bottom: 32px;
+}
+/* Choose Us Style End  */
+
+/* Discount Style Start  */
+/* Discount Style End  */
+
+
+
+
+
+
+
 
 /* Mobile Responsive  */
 @media screen and (max-width: 600px) {
@@ -443,6 +548,19 @@ nav {
 
     .bandarban > h3 {
         left: 200px;
+    }
+
+    .choose-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .price {
+        width: 100%;
+        height: 42vh;
+    }
+
+    .choose-container > p {
+        width: 90%;
     }
 }
 
@@ -561,5 +679,18 @@ nav {
 
     .bandarban > h3 {
         left: 275px;
+    }
+
+    .choose-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .price {
+        width: 100%;
+        height: 42vh;
+    }
+
+    .choose-container > p {
+        width: 90%;
     }
 }
