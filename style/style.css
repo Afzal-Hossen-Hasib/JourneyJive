@@ -11,7 +11,6 @@
 body {
     margin-left: 130px;
     margin-right: 130px;
-    border: 1px solid lightgray;
 }
 
 /* Common Css Style  */
@@ -655,7 +654,7 @@ nav {
 }
 
 .line {
-    color: rgba(19, 19, 24, 0.10);
+    border: 1px solid rgba(19, 19, 24, 0.10);
     width: 75%;
     margin-bottom: 24px;
 } 
@@ -718,11 +717,62 @@ nav {
 }
 /* Newsletter Style End  */
 
+/* Footer Style Start  */
+    footer {
+        margin-top: 210px;
+    }
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-logo img {
+        padding-right: 16px;
+        padding-bottom: 24px;
+    }
+
+    footer > p {
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .footer-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .footer-icon > p {
+        padding-right: 40px;
+        font-size: 2em;
+    }
+
+    .footer-line {
+        margin: 50px auto;
+        border: 1px solid rgba(19, 19, 24, 0.10);
+        width: 80%;
+    }
+
+    footer > h1 {
+        color: #131318;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+/* Footer Style End  */
 
 
+/* Mobile Responsive Start */
 
-
-/* Mobile Responsive  */
 @media screen and (max-width: 600px) {
     body {
         margin-left: 20px;
@@ -900,23 +950,17 @@ nav {
         width: 100%;
         height: 50vh;
     }
+
+    footer > p {
+        width: 90%;
+    }
 }
 
+/* Mobile Responsive End */
 
 
+/* Tablet Responsive Start */
 
-
-
-
-
-
-
-
-
-
-
-
-/* Tablet Responsive */
 @media screen and (min-width:600px) and (max-width:992px) {
     body {
         margin-left: 20px;
@@ -1087,4 +1131,10 @@ nav {
         width: 100%;
         height: 50vh;
     }
+
+    footer > p {
+        width: 90%;
+    }
 }
+
+/* Tablet Responsive End */
