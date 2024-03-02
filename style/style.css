@@ -904,6 +904,22 @@ nav {
         flex-direction: column;
     }
 
+    .tour-content > h1 {
+        font-size: 30px;
+    }
+
+    .tour-content > p {
+        font-size: 15px;
+    }
+
+    #content-para {
+        font-size: 15px;
+    }
+
+    .tour-content > ul > li {
+        font-size: 15px;
+    }
+
     .tour-content {
         width: 100%;
     }
@@ -920,12 +936,16 @@ nav {
         width: 100%;
     }
 
+    .destination-container > h1 {
+        font-size: 2em;
+    }
+
     .gallery-one {
         grid-template-columns: repeat(1, 1fr);
     }
     
     .gallery-common > h3 {
-        left: 200px;
+        left: 130px;
     }
 
     .gallery-two {
@@ -938,15 +958,15 @@ nav {
     }
 
     .srilanka > h3 {
-        left: 205px;
+        left: 130px;
     }
     
     .america > h3 {
-        left: 170px;
+        left: 100px;
     }
 
     .kashmir > h3 {
-        left: 210px;
+        left: 140px;
     }
     
     .gallery-three {
@@ -959,11 +979,11 @@ nav {
     }
 
     .bangladesh > h3 {
-        left: 190px;
+        left: 120px;
     }
 
     .bandarban > h3 {
-        left: 200px;
+        left: 130px;
     }
 
     .choose-content {
@@ -972,11 +992,39 @@ nav {
 
     .price {
         width: 100%;
-        height: 42vh;
+        height: 45vh;
     }
 
     .choose-container > p {
         width: 90%;
+    }
+
+    .choose-container > h1 {
+        font-size: 2em;
+    }
+
+    .handpicked > h2 {
+        font-size: 25px;
+    }
+
+    .handpicked > p {
+        font-size: 15px;
+    }
+
+    .service > h2 {
+        font-size: 25px;
+    }
+
+    .service > p {
+        font-size: 15px;
+    }
+
+    .price > h2 {
+        font-size: 25px;
+    }
+
+    .price > p {
+        font-size: 15px;
     }
 
     .discount-container > h1 {
@@ -1011,7 +1059,7 @@ nav {
     }
 
     .package-btn {
-        width: 60%;
+        width: 90%;
     }
 
     .video-main {
@@ -1019,11 +1067,33 @@ nav {
     }
 
     .video-content > h1 {
-        font-size: 2em;
+        font-size: 30px;
+    }
+
+    .video-content > p {
+        font-size: 15px;
+    }
+
+    .video-content > ul > li {
+        font-size: 15px;
     }
 
     .news-main {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content {
+        right: 20px;
+        bottom: 60px;
+    }
+    
+    .content > h4 {
+        font-size: 16px;
+        padding-bottom: 2px;
+    }
+    
+    .content > h2 {
+        font-size: 22px;
     }
 
     .img-news > img {
@@ -1033,6 +1103,10 @@ nav {
 
     .review-content {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .review-container > h1 {
+        font-size: 2em;
     }
 
     footer > p {
