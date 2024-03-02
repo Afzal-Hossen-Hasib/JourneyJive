@@ -1,6 +1,7 @@
 /* Google Font  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
+/* Universal Style  */
 * {
     margin: 0;
     padding: 0;
@@ -849,6 +850,7 @@ nav {
 /* Footer Style End  */
 
 
+
 /* Mobile Responsive Start */
 
 @media screen and (max-width: 600px) {
@@ -1039,6 +1041,7 @@ nav {
 }
 
 /* Mobile Responsive End */
+
 
 
 /* Tablet Responsive Start */
